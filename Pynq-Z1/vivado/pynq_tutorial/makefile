@@ -2,4 +2,4 @@ all:
 	vivado -mode batch -source ../../bitstream//pynq_tutorial.tcl
 
 clean:
-	rm -rf base* vivado* *.log
+	rm -rf pynq_tutorial* vivado* *.log

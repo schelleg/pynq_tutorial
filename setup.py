@@ -35,14 +35,15 @@ __email__       = "pynq_support@xilinx.com"
 from setuptools import setup, find_packages
     
 setup(  name='pynq_tutorial',
-        version='1.4',
-        description='Python for Xilinx package',
-        author='XilinxPythonProject',
+        version='1.0',
+        description='PYNQ Tutorial Bitstream',
+        author='PYNQ Team',
         author_email='pynq_support@xilinx.com',
         url='https://github.com/schelleg/pynq_tutorial',
         packages = find_packages(),
         download_url = 'https://github.com/schelleg/pynq_tutorial',
         package_data = {
-          '': ['*.bin','*.so','bitstream/*'],
+          '': ['*.bin','*.so','bitstream/*', 'notebooks/*'],
+
         },
     )
